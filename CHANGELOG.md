@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* show bottom navigation on swipe up and hide it on swipe down.
