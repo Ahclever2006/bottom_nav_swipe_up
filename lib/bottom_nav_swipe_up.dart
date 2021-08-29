@@ -42,7 +42,7 @@ class _SlidableScreenState extends State<SlidableScreen> {
                           top: controller.homeState == HomeState.normal
                               ? 0.0
                               : -(constraints.maxHeight -
-                              650),
+                              (constraints.maxHeight/1.12)),
                           left: 0,
                           right: 0,
                           height: constraints.maxHeight  -
@@ -73,7 +73,7 @@ class _SlidableScreenState extends State<SlidableScreen> {
                           right: 0,
                           height: controller.homeState == HomeState.normal
                               ? cartBarHeight
-                              : (constraints.maxHeight - 650),
+                              : (constraints.maxHeight - (constraints.maxHeight/1.12)),
                           child: GestureDetector(
                             onVerticalDragUpdate: _onVerticalGesture,
                             child: Container(
