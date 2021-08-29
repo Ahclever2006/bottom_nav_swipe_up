@@ -1,6 +1,4 @@
 
-//A new Flutter package to show bottom navigation on swipe up and hide it on swipe down.
-
 <p align="center">
   Bottom Nav Swipe Up is flutter package to show bottom navigation on swipe up and hide it on swipe down.
 </p>
@@ -17,8 +15,7 @@
   * [Getting Started](#getting-started)
   * [Usage](#usage)
   * [Documentation](#documentation)
-    * [LiquidSwipe](#liquidswipe)
-  	* [LiquidController](#liquidcontroller)
+    * [SlidableScreen](#slidablescreen)
   * [Author & Support](#author--support)
 
 
@@ -86,18 +83,18 @@
 
 # Documentation
 
-## LiquidSwipe
+## SlidableScreen
 
 Please Refer to [API documentation](https://pub.dev/documentation/bottom_nav_swipe_up/latest/index.html) for more details.
 
-| Property | Type | Description |
+| Property | Type | Description | Default Value |
 |-|:-:|-|:-:|
-| scaffoldBackgroundColor | `Color` | Set a background color for scaffold. |
-| backgroundColor | `Color` | Set a background color for background. |
-| slidableWidgetBackgroundColor | `Color` | Set a background color for slidable widget. |
-| bottomNavigationBarBackgroundColor | `Color` | Set a background color for bottom navigation bar. |
-| bottomNavigationBarWidget | `Widget` | Widget you want to display as bottom navigation bar. |
-| slidableWidget | `Widget` | Widget you want to display as slidable screen. |
+| scaffoldBackgroundColor | `Color` | Set a background color for scaffold. | @required value |
+| backgroundColor | `Color` | Set a background color for background. | @required value |
+| slidableWidgetBackgroundColor | `Color` | Set a background color for slidable widget. | @required value |
+| bottomNavigationBarBackgroundColor | `Color` | Set a background color for bottom navigation bar. | @required value |
+| bottomNavigationBarWidget | `Widget` | Widget you want to display as bottom navigation bar. | @required value |
+| slidableWidget | `Widget` | Widget you want to display as slidable screen. | @required value |
 
 
 # Author & support
