@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bottom Nav Example App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -29,11 +29,93 @@ class MyApp extends StatelessWidget {
         slidableWidgetBackgroundColor: Colors.white,
         bottomNavigationBarBackgroundColor: Colors.grey,
         bottomNavigationBarWidget: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("My bottom nav bar"),
-            Text("Hey")
+            GestureDetector(
+              onTap: (){
+                //Todo
+              },
+              child: Container(
+                width: 35,
+                height: 35,
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle, color: Colors.white),
+                child: Padding(
+                  padding: const EdgeInsets.all(6.0),
+                  child: Container(
+                    width: 25,
+                    height: 25,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.white),
+                    child: Image.asset("assets/images/user.png", fit: BoxFit.fill,),
+                  ),
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: (){
+                //Todo
+              },
+              child: Container(
+                width: 35,
+                height: 35,
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle, color: Colors.white),
+                child: Padding(
+                  padding: const EdgeInsets.all(6.0),
+                  child: Container(
+                    width: 25,
+                    height: 25,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.white),
+                    child: Image.asset("assets/images/wallet.png", fit: BoxFit.fill,),
+                  ),
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: (){
+                //Todo
+              },
+              child: Container(
+                width: 35,
+                height: 35,
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle, color: Colors.white),
+                child: Padding(
+                  padding: const EdgeInsets.all(6.0),
+                  child: Container(
+                    width: 25,
+                    height: 25,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.white),
+                    child: Image.asset("assets/images/dollar.png", fit: BoxFit.fill,),
+                  ),
+                ),
+              ),
+            ),
+            GestureDetector(
+              onTap: (){
+                //Todo
+              },
+              child: Container(
+                width: 35,
+                height: 35,
+                decoration: BoxDecoration(
+                    shape: BoxShape.circle, color: Colors.white),
+                child: Padding(
+                  padding: const EdgeInsets.all(6.0),
+                  child: Container(
+                    width: 25,
+                    height: 25,
+                    decoration: BoxDecoration(
+                        shape: BoxShape.circle, color: Colors.white),
+                    child: Image.asset("assets/images/add.png", fit: BoxFit.fill,),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
         slidableWidget: Column(

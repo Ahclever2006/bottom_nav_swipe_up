@@ -14,6 +14,6 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-##Usage
+Usage
 
 [Example](https://github.com/faizahmmd/bottom_nav_swipe_up/blob/main/example/lib/main.dart)
