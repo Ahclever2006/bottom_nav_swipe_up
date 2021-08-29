@@ -1,6 +1,6 @@
 name: bottom_nav_swipe_up
 description: A new Flutter package to show bottom navigation on swipe up and hide it on swipe down.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/faizahmmd/bottom_nav_swipe_up.git
 
 environment:
