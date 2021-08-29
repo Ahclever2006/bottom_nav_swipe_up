@@ -24,7 +24,7 @@
 * Add this to your pubspec.yaml
   ```
   dependencies:
-  bottom_nav_swipe_up: ^0.0.3
+  bottom_nav_swipe_up: ^0.0.6
 
   ```
 * Get the package from Pub:
