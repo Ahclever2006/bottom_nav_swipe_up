@@ -8,9 +8,9 @@ class HomeController extends ChangeNotifier {
 
   void changeHomeState(HomeState state) {
     homeState = state;
-    if(homeState == HomeState.cart){
+    if (homeState == HomeState.cart) {
       borderRadius = 1.5;
-    }else{
+    } else {
       borderRadius = 0.0;
     }
     notifyListeners();

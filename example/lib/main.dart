@@ -33,14 +33,14 @@ class MyApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             GestureDetector(
-              onTap: (){
+              onTap: () {
                 //Todo
               },
               child: Container(
                 width: 35,
                 height: 35,
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle, color: Colors.white),
+                decoration:
+                    BoxDecoration(shape: BoxShape.circle, color: Colors.white),
                 child: Padding(
                   padding: const EdgeInsets.all(6.0),
                   child: Container(
@@ -48,20 +48,23 @@ class MyApp extends StatelessWidget {
                     height: 25,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: Colors.white),
-                    child: Image.asset("assets/images/user.png", fit: BoxFit.fill,),
+                    child: Image.asset(
+                      "assets/images/user.png",
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ),
             ),
             GestureDetector(
-              onTap: (){
+              onTap: () {
                 //Todo
               },
               child: Container(
                 width: 35,
                 height: 35,
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle, color: Colors.white),
+                decoration:
+                    BoxDecoration(shape: BoxShape.circle, color: Colors.white),
                 child: Padding(
                   padding: const EdgeInsets.all(6.0),
                   child: Container(
@@ -69,20 +72,23 @@ class MyApp extends StatelessWidget {
                     height: 25,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: Colors.white),
-                    child: Image.asset("assets/images/wallet.png", fit: BoxFit.fill,),
+                    child: Image.asset(
+                      "assets/images/wallet.png",
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ),
             ),
             GestureDetector(
-              onTap: (){
+              onTap: () {
                 //Todo
               },
               child: Container(
                 width: 35,
                 height: 35,
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle, color: Colors.white),
+                decoration:
+                    BoxDecoration(shape: BoxShape.circle, color: Colors.white),
                 child: Padding(
                   padding: const EdgeInsets.all(6.0),
                   child: Container(
@@ -90,20 +96,23 @@ class MyApp extends StatelessWidget {
                     height: 25,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: Colors.white),
-                    child: Image.asset("assets/images/dollar.png", fit: BoxFit.fill,),
+                    child: Image.asset(
+                      "assets/images/dollar.png",
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ),
             ),
             GestureDetector(
-              onTap: (){
+              onTap: () {
                 //Todo
               },
               child: Container(
                 width: 35,
                 height: 35,
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle, color: Colors.white),
+                decoration:
+                    BoxDecoration(shape: BoxShape.circle, color: Colors.white),
                 child: Padding(
                   padding: const EdgeInsets.all(6.0),
                   child: Container(
@@ -111,7 +120,10 @@ class MyApp extends StatelessWidget {
                     height: 25,
                     decoration: BoxDecoration(
                         shape: BoxShape.circle, color: Colors.white),
-                    child: Image.asset("assets/images/add.png", fit: BoxFit.fill,),
+                    child: Image.asset(
+                      "assets/images/add.png",
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
               ),
