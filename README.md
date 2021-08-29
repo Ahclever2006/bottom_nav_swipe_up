@@ -4,10 +4,10 @@
 </p>
 
 <p align="center">
-<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/example/assets/screen_shots/bottom_nav_closed.jpg" width="310" height="640">
-<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/example/assets/screen_shots/bottom_nav_open.jpg" width="310" height="640">
-<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/example/assets/screen_shots/bottom_nav_gif.jif" width="310" height="640">
-<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/example/assets/screen_shots/bottom_nav_custom.jpg" width="310" height="640">
+<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/assets/screen_shots/bottom_nav_closed.jpg" width="310" height="640">
+<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/assets/screen_shots/bottom_nav_open.jpg" width="310" height="640">
+<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/assets/screen_shots/bottom_nav_gif.jif" width="310" height="640">
+<img src="raw.githubusercontent.com/faizahmmd/bottom_nav_swipe_up/assets/screen_shots/bottom_nav_custom.jpg" width="310" height="640">
 </p>
 
 
@@ -24,7 +24,7 @@
 * Add this to your pubspec.yaml
   ```
   dependencies:
-  bottom_nav_swipe_up: ^0.0.6
+  bottom_nav_swipe_up: ^0.0.7
 
   ```
 * Get the package from Pub:

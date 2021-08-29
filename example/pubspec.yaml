@@ -51,10 +51,6 @@ flutter:
     - assets/images/wallet.png
     - assets/images/dollar.png
     - assets/images/user.png
-    - assets/screen_shots/bottom_nav_closed.jpg
-    - assets/screen_shots/bottom_nav_open.jpg
-    - assets/screen_shots/bottom_nav_gif.gif
-    - assets/screen_shots/bottom_nav_custom.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
