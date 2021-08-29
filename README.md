@@ -1,6 +1,6 @@
 
 <p align="center">
-  Bottom Nav Swipe Up is flutter package to show bottom navigation on swipe up and hide it on swipe down.
+  <strong>Bottom Nav Swipe Up</strong> is flutter package to show bottom navigation on swipe up and hide it on swipe down.
 </p>
 
 <p align="center">
